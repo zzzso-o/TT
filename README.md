@@ -1,9 +1,10 @@
 <!-- ABOUT THE PROJECT -->
+
 # 프로젝트 소개
 ## TT - For TRPG with Online!
 <div id="readme-top"></div>
 <!--사진-->
-![06 about 화면](https://user-images.githubusercontent.com/40424414/185549536-c7840946-7b3b-4174-bf82-a2d307e4a308.png)
+![image](https://user-images.githubusercontent.com/97646028/203730716-05a480ce-ea7c-4cd0-b32b-e717781b596c.png)
 
 [TT](https://i7a809.p.ssafy.io/)
 온라인에서도 TRPG를 즐길 수 있는 서비스입니다!
@@ -12,7 +13,7 @@
 <details>
 <summary>첫 화면</summary>
 <div markdown="1">       
-![01 첫화면](https://user-images.githubusercontent.com/40424414/185575228-57aee800-b0ce-43ef-8177-b7d973018e25.png)
+![image](https://user-images.githubusercontent.com/97646028/203730919-d9cf0012-0211-4d66-b978-022c16109375.png)
 <h6>홈페이지에 들어갔을 나타나는 첫 화면입니다.</h6>
 <h6>회원가입을 진행하신 다음, 로그인을 하면 서비스를 이용할 수 있습니다.</h6>
 </div>
@@ -21,7 +22,7 @@
 <details>
 <summary>파티 모집 게시판 - 작성</summary>
 <div markdown="1">       
-![15 파티 모집 게시판 작성](https://user-images.githubusercontent.com/40424414/185575440-0e6ab967-ae25-413d-bcb2-26c758cd1892.png)
+![image](https://user-images.githubusercontent.com/97646028/203730945-81ac4b83-6bae-4b1c-b112-f6eb1b5b23af.png)
 <h6>같이 게임을 즐길 인원을 모집하는 게시판입니다.</h6>
 <h6>같이 플레이할 인원 수와 게임할 시간, 그리고 작성자가 어느 포지션으로 게임을 뛸 것인지 고를 수 있습니다.</h6>
 </div>
@@ -30,7 +31,7 @@
 <details>
 <summary>파티 모집 게시판 - 플레이어 등록</summary>
 <div markdown="1">       
-![Table Talk - Chrome 2022-08-19 오전 10_04_05](https://user-images.githubusercontent.com/40424414/185575586-93d4c5f7-5fc8-4055-8d6c-ead14d770a7c.png)
+![image](https://user-images.githubusercontent.com/97646028/203730980-9b482b34-fb4a-41f5-ac51-9bff87ab33af.png)
 <h6>파티 모집 중인 게시물에 들어가서 참가 신청을 할 수 있습니다.</h6>
 </div>
 </details>
@@ -38,7 +39,7 @@
 <details>
 <summary>파티 모집 게시판 - 방 입장</summary>
 <div markdown="1">       
-![Table Talk - Chrome 2022-08-19 오전 10_09_52](https://user-images.githubusercontent.com/40424414/185575683-56bfd208-2831-4aa1-9064-5562b6f6fc77.png)
+![image](https://user-images.githubusercontent.com/97646028/203731006-8a197565-f912-44c1-8b81-2bcbad25ad65.png)
 <h6>게시글에 적힌 시간이 되면 참가 신청을 한 사람에 한하여 방에 입장할 수 있는 버튼이 생깁니다.</h6>
 </div>
 </details>
@@ -46,7 +47,7 @@
 <details>
 <summary>플레이어 첫 화면</summary>
 <div markdown="1">       
-![24 캐릭터 프로필 생성](https://user-images.githubusercontent.com/40424414/185575998-e958851f-d4bc-4dde-aed5-c2ebea3c3b01.png)
+![image](https://user-images.githubusercontent.com/97646028/203731028-1c862a5f-1db4-4c2e-86d9-61758500f469.png)
 <h6>플레이어가 방에 입장한 후 보이는 첫 화면입니다.</h6>
 <h6>직업을 고를 수 있고, info를 통해 해당 직업에 대한 설명도 볼 수 있습니다.</h6>
 </div>
@@ -55,7 +56,7 @@
 <details>
 <summary>플레이어 캐릭터 프로필</summary>
 <div markdown="1">       
-![23 플레이어 캐픽터 프로필](https://user-images.githubusercontent.com/40424414/185576188-1acb8346-2721-4392-ae2c-a2e0587e0969.png)
+![image](https://user-images.githubusercontent.com/97646028/203731055-0ae2fd12-6aba-4e73-9f8f-049e3e393a4b.png)
 <h6>처음 보이는 캐릭터 프로필 생성을 완료하면 볼 수 있는 프로필 화면입니다.</h6>
 </div>
 </details>
@@ -63,7 +64,7 @@
 <details>
 <summary>GM 첫 화면</summary>
 <div markdown="1">       
-![16 GM 입장](https://user-images.githubusercontent.com/40424414/185575827-87d630d8-9e54-44e3-aaaa-42e629b7900a.png)
+![image](https://user-images.githubusercontent.com/97646028/203731076-7c2355a0-e2c3-4803-b4f3-a060695c6534.png)
 <h6>GM이 방에 입장한 후 보이는 첫 화면입니다.</h6>
 <h6>GM은 플레이어와 다르게 프로필을 생성하지 않습니다. 다만 GM만이 운영할 수 있는 시스템이 있습니다.</h6>
 </div>
@@ -72,11 +73,12 @@
 <details>
 <summary>GM 게임 운영 메뉴</summary>
 <div markdown="1">       
-![19 운영 전투 시스템](https://user-images.githubusercontent.com/40424414/185575918-e3bef179-73d5-4f3e-acbb-a65798567613.png)
+![image](https://user-images.githubusercontent.com/97646028/203731094-26805252-31e1-4a1a-877d-abd9313f07d3.png)
 <h6>GM이 게임을 진행하면서 누를 수 있는 버튼입니다.</h6>
 <h6>플레이어의 HP에 변화를 주거나, 아이템을 주고, 스탯을 보상으로 주는 등의 메뉴가 있습니다.</h6>
 </div>
 </details>
+
 
 <details>
 <summary>지도</summary>
@@ -85,14 +87,14 @@
 <h6>지도입니다. 여러분이 계신 또 다른 공간을 보여줍니다.</h6>
 </div>
 </details>
-
 <details>
 <summary>주사위</summary>
 <div markdown="1">       
-![20 주사위 굴리기](https://user-images.githubusercontent.com/40424414/185576323-3d5445a7-7b05-444a-8a03-040608ce3aa0.png)
+![image](https://user-images.githubusercontent.com/97646028/203731120-9309be21-cf01-4c56-ad11-8852f19773d0.png)
 <h6>주사위입니다. 여러분의 실력에 따라 미래가 바뀔 것입니다.</h6>
 </div>
 </details>
+
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
