@@ -1,0 +1,214 @@
+#map {
+  width: 100%;
+  height: 100%;
+}
+#map-image {
+  object-fit: cover;
+  height:100%;
+  width: 100%;
+  border-radius: 38px;
+}
+
+#swamp:hover {
+  opacity: 0.5;
+}
+
+.img-mapper-img {
+  object-fit: cover;
+  /* height:100%;
+  width: 100%; */
+  border-radius: 38px;
+}
+#image-mapper {
+  z-index: 1;
+}
+
+#map-name {
+  position: relative;
+  z-index: 3;
+  top: 5%;
+  left: 10%;
+}
+
+.on {
+}
+
+.off {
+  display: none;
+}
+
+/* QHD */
+#QHD-swamp {
+  width: 60px;
+  position: relative;
+  bottom: 400px;
+  left:220px;
+
+  z-index: 2;
+
+}
+#QHD-start {
+  width: 60px;
+  position: relative;
+  bottom: 350px;
+  left:350px;
+
+  z-index: 2;
+
+}
+#QHD-forest {
+  width: 60px;
+  position: relative;
+  bottom: 500px;
+  left:420px;
+  z-index: 2;
+
+}
+
+#QHD-cavern {
+  width: 60px;
+  position: relative;
+  bottom: 590px;
+  left:630px;
+  z-index: 2;
+
+}
+
+#QHD-mountain {
+  width: 60px;
+  position: relative;
+  bottom: 780px;
+  left:320px;
+
+  z-index: 2;
+
+}
+
+#QHD-devil {
+  width: 60px;
+  position: relative;
+  bottom: 830px;
+  left:520px;
+
+  z-index: 2;
+
+}
+
+/* HD */
+
+#HD-swamp {
+  width: 50px;
+  position: relative;
+  bottom: 320px;
+  left:150px;
+
+  z-index: 2;
+
+}
+#HD-start {
+  width: 50px;
+  position: relative;
+  bottom: 270px;
+  left:250px;
+
+  z-index: 2;
+
+}
+#HD-forest {
+  width: 50px;
+  position: relative;
+  bottom: 380px;
+  left:320px;
+
+  z-index: 2;
+
+}
+
+#HD-cavern {
+  width: 50px;
+  position: relative;
+  bottom: 470px;
+  left:480px;
+
+  z-index: 2;
+
+}
+
+#HD-mountain {
+  width: 50px;
+  position: relative;
+  bottom: 580px;
+  left:270px; 
+
+  z-index: 2;
+
+}
+
+#HD-devil {
+  width: 50px;
+  position: relative;
+  bottom: 630px;
+  left:400px;
+
+  z-index: 2;
+
+}
+
+/* SD */
+
+#SD-swamp {
+  width: 25px;
+  position: relative;
+  bottom: 170px;
+  left:80px;
+
+  z-index: 2;
+
+}
+#SD-start {
+  width: 25px;
+  position: relative;
+  bottom:140px;
+  left:150px;
+
+  z-index: 2;
+
+}
+#SD-forest {
+  width: 25px;
+  position: relative;
+  bottom: 200px;
+  left:190px;
+
+  z-index: 2;
+
+}
+
+#SD-cavern {
+  width: 25px;
+  position: relative;
+  bottom: 250px;
+  left:255px;
+
+  z-index: 2;
+
+}
+
+#SD-mountain {
+  width: 25px;
+  position: relative;
+  bottom: 320px;
+  left:130px;
+
+  z-index: 2;
+
+}
+
+#SD-devil {
+  width: 25px;
+  position: relative;
+  bottom: 330px;
+  left:210px;
+  z-index: 2;
+
+}

@@ -1,0 +1,54 @@
+#profile-page {
+  background-color: #262626;
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-box {
+  margin:0 auto;
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  color: #d9aa52;
+}
+
+.profile-nickname {
+  color: #d9aa52;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.p-group {
+  width: 55%;
+}
+
+
+.profile-subtitle {
+  color: #d9aa52;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 1%;
+}
+
+
+.profile-els {
+  display: flex;
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 3%;
+  flex-wrap: wrap;
+  background-color: #262626;
+  border-radius: 20px;
+  font-size: 1em;
+  border: 1px solid #d9aa52;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 1;
+  flex-shrink: 0;
+  padding: 3%;
+}

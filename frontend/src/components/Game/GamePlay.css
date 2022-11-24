@@ -1,0 +1,64 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+    .game-play {
+        grid-area: play;
+        width: 244.224px;
+        height: 370.224px;
+    }
+
+}
+
+@media all and (min-width:1024px) and (max-width:1919px) {
+    .game-play {
+        grid-area: play;
+        width: 325.632px;
+        height: 658.176px;
+    }
+}
+
+@media all and (min-width:1920px) and (max-width:2559px) {
+    .game-play {
+        grid-area: play;
+        width: 610px;
+        height: 900px;
+    }
+
+}
+
+@media all and (min-width:2560px) {
+    .game-play {
+        grid-area: play;
+        width: 814.08px;
+        height: 1234.08px;
+    }
+
+}
+
+.game-play {
+    margin-top: 10px;
+    border-radius: 38px;
+    
+
+}
+
+#basic-theme {
+    background-color: rgba(0,0,0,0.55)
+}
+
+#rulebook-theme {
+    background-color: rgba(0,0,0,0.55)
+}
+
+#monster-theme {
+    background-color: rgba(0,0,0,0.55);
+}
+
+#player-profile-theme {
+    background-color: rgba(0,0,0,0.55);
+}
+
+/* 
+#map-theme {
+
+} */
+
+

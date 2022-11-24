@@ -1,0 +1,41 @@
+#log-box {
+  width:80%;
+  border-radius: 38px;
+  background-color: #262626;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+  margin-right:0.3vw;
+  padding: 5%;
+   /** 로그를 밑에서 위로 올라가게 보이도록 flex를 사용함 */
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: auto;
+  color: white;
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+
+
+}
+
+@media all and (min-width:1024px) and (max-width:1919px) {
+  #log-box {
+    height: 700px;
+  }
+}
+
+@media all and (min-width:1920px) and (max-width:2559px) {
+  #log-box {
+    height: 1000px;
+  }
+}
+@media all and (min-width:2560px) {
+  #log-box {
+    height: 1380px;
+  }
+
+}
+
+.signalArray {
+  margin-bottom: 3%;
+}

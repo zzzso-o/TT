@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'NOTO Sans';
+  src: url('../assets/fonts/NotoSansKR-Medium.otf');
+}
+
+#create {
+  font-family: 'NOTO Sans';
+  background-color: #262626;
+  width: 100vw;
+  height: 200vh;
+}
+
+#edit {
+  font-family: 'NOTO Sans';
+  background-color: #262626;
+  width: 100vw;
+  height: 200vh;
+}
+
+
+.create-container {
+  display: flex;
+  width: 27%;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  width: 100%;
+  height: 70%;
+}
+
+
+.create-container > h1 {
+  color:#d9aa52;
+  text-align: center;
+}
+
+.rows {
+  width:100%;
+  margin-bottom: 3%;
+}
+
+.inp-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.mini-title {
+  color: #d9aa52;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.inp-tags {
+  height: 2vh;
+  font-size: 1em;
+  font-weight: bold;
+  padding:3%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.txtarea-tags {
+  height: 45vh;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.error-message {
+  width: 100%;
+  color: tomato;
+  margin-left: 3%;
+}
+
+.btn-group {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn-tags {
+  width: 95%;
+  height: 7vh;
+  border-radius: 20px;
+  border: none;
+  color:#d9aa52;
+  cursor:pointer;
+}
+
+.btn-tags:hover {
+  background-color: #a67841;
+}
+
+.edit-btn-tags {
+  width: 48%;
+  height: 7vh;
+  margin:0 1%;
+  border-radius: 20px;
+  border: none;
+  color:#d9aa52;
+  cursor:pointer;
+}
+
+/* --------------meeting--------------- */
+.radio-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.position-choice {
+  width:50%;
+}
+
+/* custom radio button */
+/* 본래의 라디오버튼은 숨긴다 */
+.radio-btn {
+  opacity: 0;
+}
+
+input[type=radio] + label{
+  margin: 0;
+  padding: .75em 1.5em;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border: solid 1px #d9aa52;
+  border-radius: 20px;
+  background-color: #262626;
+  line-height: 140%;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color .15s ease-out,  color .25s ease-out,  background-color .15s ease-out, box-shadow .15s ease-out;
+  cursor: pointer;
+  color:#d9aa52
+}
+
+/* 체크했을때 모습 꾸며주는 부분 -> 수정예정 */
+input[type=radio]:checked + label{
+	background-color: #a67841;
+  color: #FFF;
+  box-shadow: 0 0 10px #d9aa52(102, 179, 251, 0.5);
+  border-color: #d9aa52;
+  z-index: 1;
+}
+
+/* input datetime 수정예정 */

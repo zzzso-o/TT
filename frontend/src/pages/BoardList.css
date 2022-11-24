@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'NOTO Sans';
+    src: url('../assets/fonts/NotoSansKR-Medium.otf');
+}
+
+#container {
+    font-family: 'NOTO Sans';
+    background-color: #262626;
+    height: 1294px;
+    text-align: center;
+}
+
+#container > h1 {
+    color:#D9AA52
+}
+
+#articles {
+    font-family: 'NOTO Sans';
+    height: 823px;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 30%;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+th {
+    color: #D9AA52;
+    font-size: 1em;
+}
+
+td {
+    color: #D9AA52;
+    text-align: center;
+    font-size: small;
+}
+
+tr {
+    height: 43px;
+    border-radius: 20px;
+    margin: 3px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #D9AA52;
+    border-spacing: 0px 15px;
+}
+
+
+.list-names {
+    height: 43px;
+    border-radius: 20px;
+    margin: 3px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #D9AA52;
+    border-spacing: 0px 15px;
+    cursor: pointer;
+}
+
+
+.list-names:hover {
+    opacity: 60%;
+}
+
+
+#search-btn, #create-btn {
+    font-family: 'NOTO Sans';
+    background-color: #262626;
+    color: #D9AA52;
+    border : 1px solid #D9AA52;
+    border-radius: 20px;
+    margin: 5px;
+    width: 90px;
+    height: 40px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#create-btn:hover {
+    background-color: #a67841;
+}
+
+#search {
+    margin-left:auto; 
+    margin-right:auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#search-input {
+    border-radius: 20px;
+    width: 60%;
+    height: 20px;
+    padding: 1.5%;
+}
+
+.search-group {
+    width: 70%;
+}
+
+#meeting-pag {
+    display: flex;
+    justify-content:center;
+    
+}
+
+#meeting-pag button {
+    color: #D9AA52;
+}
+

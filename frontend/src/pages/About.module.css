@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'kotra';
+  src: url('../assets/fonts/KOTRA LEAP.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 3;
+    transform: none;
+  }
+}
+
+
+
+#About {
+  background-color: #262626;
+  width: 100vw;
+  height: 270vh;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.Title {
+  font-family: 'kotra';
+  color: #d9aa52;
+  font-size: 5em;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.One {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+  font-family: 'NotoSerifKR';
+  /* opacity: 0;
+  transition: all .5s ease;
+  transform: translate(0, 100px); */
+}
+/* 
+.about-one .show {
+    opacity: 1;
+    transform: none;
+} */
+
+.TTabout {
+
+  width: 400px;
+  height: 300px;
+}
+
+
+.Explainone {
+  color: #d9aa52;
+  margin-left: 5%;
+  font-size: 1.2em;
+}
+
+.Explaintwo {
+  color: #d9aa52;
+  margin-right: 5%;
+  font-size: 1.2em;
+}
+
+.Aboutfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'NotoSerifKR';
+}
+
+.Explainfoot {
+  color: #d9aa52;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.Btn {
+  width: 30%;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'NotoSerifKR';
+  padding: 1.5em 3em;
+  border-radius: 50px;
+  background: white;
+  color: #d9aa52;
+  font-weight: bold;
+  font-size: 1em;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Btn::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: -20px;
+  right: -20px;
+  background: inherit;
+  border-radius: 50px;
+  z-index: -1;
+  opacity: 0.4;
+  -webkit-transform: scale3d(0.8, 0.5, 1);
+  transform: scale3d(0.8, 0.5, 1);
+}
+
+.Btn:hover {
+  -webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+  transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+  color: #ECEFF1;
+  background-color: #a67841;
+  -webkit-animation: anim-moema-1 0.3s forwards;
+  animation: anim-moema-1 0.3s forwards;
+}
+
+@-webkit-keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+.Animation {
+  animation: fadeIn;
+}

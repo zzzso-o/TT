@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'light';
+  src: url('../../assets/fonts/HeirofLightRegular.ttf');
+}
+
+#player-profile {
+  font-family: 'light';
+  color: white;
+}
+
+
+#player-profile > h1 {
+  margin-left: 5%;
+}
+
+.pp-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.pp-group {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  border: 2px solid #a6a6a6;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-top: 10%;
+  justify-content: space-between;
+  padding:1%;
+}
+
+.pp-title {
+  width: 80%;
+  margin-bottom: 2%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pp-title-item {
+  width: 100%;
+  margin-bottom: 2%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.pp-title-look {
+  width: 65%;
+  height: 10vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid #a6a6a6;
+  border-radius: 5px;
+  padding:2%;
+}
+
+.hp-bar {
+  width: 50%;
+}
+
+
+.pp-container-two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+
+.gameprofile-subtitle {
+  font-weight: bold;
+  font-size: 1em;
+  margin-right: 3px;
+  color: #f2df7e;
+}
+
+.pp-userinfo {
+  font-size: 1em;
+  margin-left: 3%;
+  word-wrap: break-word;
+}
+
+.stat-title  {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 2%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  flex-wrap: wrap;
+  border: 2px solid #a6a6a6;
+  border-radius: 5px;
+  padding:2%;
+}
+
+.stat-arrow {
+  width: 20px;
+  height: 20px;
+  margin-top: 2%;
+}
+
+
+.stat-arrow:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.jobimg {
+  width: 200px;
+  height: 200px;
+}
+
+.stat-skill {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.item-part {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.weapon-armor {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid #a6a6a6;
+  border-radius: 5px;
+  height: 100%;
+  padding: 2%;
+}
+
+.stat-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,61 @@
+#dice-box {
+    width: 600px;
+    height: 450px;
+    text-align: center;
+}
+#dice-num {
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#dice-canvas {
+    width: 600px;
+    height: 450px;
+}
+
+@font-face {
+    font-family: 'light';
+    src: url('../../assets/fonts/HeirofLightRegular.ttf');
+  }
+
+#dice-title {
+color: white;
+padding: 5%;
+font-family: 'light';
+}
+
+.dice-btn {
+
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: rgb(63,63,63);
+    background: linear-gradient(0deg, rgba(63,63,63) 0%, rgb(79, 79, 79) 100%);
+    border: none;
+
+}
+.dice-btn:before {
+    height: 0%;
+    width: 2px;
+}
+.dice-btn:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }

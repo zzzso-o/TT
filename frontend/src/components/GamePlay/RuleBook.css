@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'light';
+  src: url('../../assets/fonts/HeirofLightRegular.ttf');
+}
+
+
+#rulebook {
+  color: white;
+  padding: 5%;
+  font-family: 'light';
+}
+
+#rulebook > h1 {
+  margin: 0;
+}
+
+.action-group {
+  margin-bottom: 5%;
+}
+
+
+.rule-action {
+  white-space:pre-wrap
+}
+
+.rule-subtitle {
+  font-size:1.5em;
+  font-weight: bold;
+  margin: 5% 0 3% 0;
+}
+
+.action-name {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.dice-number {
+  font-weight: bold;
+}
+
+.rule-job {
+  white-space:pre-wrap
+}
+
+.job-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 1%;
+}
+
+.job-value {
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+.job-contents {
+  margin-bottom: 5%;
+}
+
+.action-basic {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.action-explain {
+  margin: 2% 0;
+}

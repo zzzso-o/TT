@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'NOTO Sans';
+  src: url('../assets/fonts/NotoSansKR-Medium.otf');
+}
+
+#detail {
+  font-family: 'NOTO Sans';
+  background-color: #262626;
+  width: 100vw;
+  height: 200vh;
+}
+
+
+.detail-container {
+  display: flex;
+  width: 27%;
+  height: 80vh;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.detail-title {
+  color:#d9aa52;
+  text-align: center;
+}
+
+
+.author-views {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.7em;
+}
+
+.postedby {
+  display: flex;
+  width: 50%;
+  height: 5vh;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.postedby .author-tag {
+  font-weight: bold;
+  margin-right: 2%;
+  color: #d9aa52;
+  font-size: 1.2em;
+}
+
+.postedby .author-name {
+  color: white
+}
+
+
+.views {
+  display: flex;
+  width: 50%;
+  height: 5vh;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.views .view-tag {
+  font-weight: bold;
+  margin-right: 2%;
+  color:#d9aa52;
+  font-size: 1.2em;
+}
+
+.views .view-cnt {
+  color: white;
+}
+
+
+.detail-rows {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.detail-form{ 
+  width: 100%;
+  height: 70%;
+}
+
+.content-part {
+  height: 40vh;
+  font-size: 1em;
+  border-radius: 20px;
+  border: 2px solid #d9aa52;
+  padding: 5%;
+  color: white;
+}
+
+.like-part {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  color:#d9aa52;
+  font-size: 1.5em;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.like-part .like-btn {
+  width: 18%;
+  height: 5vh;
+  border-radius: 20px;
+  border: 2px solid #d9aa52;
+  background-color: #262626;
+  color: #d9aa52;
+}
+
+.like-btn:hover {
+  background-color: #a67841;
+  color: white;
+}
+
+
+.detail-btn-group {
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-btn {
+  width: 10%;
+  height: 4vh;
+  border-radius: 20px;
+  border: 2px solid #d9aa52;
+  color: #d9aa52;
+  background-color: #262626;
+  /* flex-basis: 20px;
+  flex-shrink: 0; */
+  flex: 0 50px;
+  margin: 5% 2% 0 0;
+  cursor: pointer;
+}
+
+.detail-btn:hover {
+  background-color: #a67841;
+  color: white;
+}
+
+.comment-hr {
+  background-color: #d9aa52;
+  height: 0.1vh;
+  border:0;
+}
+
+.mini-comment-title {
+  color:#d9aa52;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.comment-part {
+  color:#d9aa52;
+  text-align: center;
+}
+
+
+/* -----------meeting----------- */
+.subtitle {
+  color: #d9aa52;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.detail-container .dinp {
+  width: 95%;
+    height: 3vh;
+    border: 2px solid #d9aa52;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #d9aa52;
+    padding: 2%;
+}
+
+.positiongroup {
+  margin-top: 5%;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 5%;
+}
+
+.positiongroup .player {
+  display:flex;
+  width: 90%;
+  height: 100%;
+  border: 2px solid;
+  border-color: #d9aa52;
+  border-radius: 20px;
+  font-size: 1em;
+  padding: 5%;
+  color: #d9aa52;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: 30vh;
+}
+
+.positiongroup .player > p {
+  margin: 0.3em;
+  
+}
+
+.enroll {
+  width: 50%;
+  height: 10vh;
+  border-radius: 20px;
+  border: none;
+  color:#d9aa52;
+  margin-top: 3%;
+}
+
+
+.enroll:hover {
+  background-color: #a67841;
+}
+
+.pygroup {
+  display: flex;
+  width: 48%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1%;
+}
+
+.pygroup .pysubtitle {
+  color: #d9aa52;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.enroll-btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.enroll-game {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: #d9aa52;
+  margin: 5px 2px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.enroll-game::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: -20px;
+  right: -20px;
+  background: inherit;
+  border-radius: 50px;
+  z-index: -1;
+  opacity: 0.4;
+  -webkit-transform: scale3d(0.8, 0.5, 1);
+  transform: scale3d(0.8, 0.5, 1);
+}
+
+.enroll-game:hover {
+  -webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+  transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+  color: #ECEFF1;
+  background-color: #a67841;
+  -webkit-animation: anim-moema-1 0.3s forwards;
+  animation: anim-moema-1 0.3s forwards;
+}
+
+@-webkit-keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#enroll-off {
+  visibility: hidden;
+}
+
+#de-btn-off {
+  display: none;
+}

@@ -1,0 +1,42 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+    .left-controller {
+        grid-area: left;
+        width: 101.376px;
+        height: auto;
+    }
+
+}
+
+@media all and (min-width:1024px) and (max-width:1919px) {
+    .left-controller {
+        grid-area: left;
+        width: 125.168px;
+        height: auto;
+    }
+}
+
+@media all and (min-width:1920px) and (max-width:2559px) {
+    .left-controller {
+        grid-area: left;
+        width: 243.44px;
+        height: auto;
+    }
+
+}
+
+@media all and (min-width:2560px) {
+    .left-controller {
+        grid-area: left;
+        width: 327.92px;
+        height: auto;
+    }
+
+}
+
+.left-controller {
+    offset: 0.5%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}

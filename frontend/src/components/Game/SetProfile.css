@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Heiro';
+  src: url('../../assets/fonts/HeirofLightRegular.ttf');
+}
+
+#select-profile-modal {
+  font-family: 'Heiro';
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 25%;
+  height: 60%;
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 38px;
+  font-size: 0.5em;
+  z-index: 3;
+
+}
+
+#job-form {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: center;
+}
+
+#blank {
+  width: 100%;
+  height: 10%;
+  color:#A6A6A6;
+  font-size: 2.4em;
+  text-align: center;
+  padding-top:5%;
+}
+
+#profile-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: center;
+  color:#A6A6A6;
+}
+
+#first-nav-bot {
+  justify-content: end;
+}
+#stat-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: center;
+  color:#A6A6A6;
+
+}
+#job-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  color:#A6A6A6;
+
+}
+
+#job-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.off-btn{
+  display:none;
+}
+.off-btn#job-form {
+  display: none;
+}
+.off-btn#profile-form {
+  display: none;
+}
+.off-btn#stat-form {
+  display:none;
+}
+.off-btn#job-info {
+  display: none;
+}
+.off-btn#job-submit {
+  display: none;
+}
+
+#set-profile-form {
+  width: 100%;
+  height: 70%;
+}
+
+.nav-bot {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.job-btn {
+  width: 20%;
+  height: 80%;
+  border-radius: 10%;
+  border-color: #A6A6A6;
+  background-color: rgba(0,0,0,0);
+  color: #A6A6A6;
+  font-family: 'Heiro';
+}
+
+.btn-box {
+  height: 33.33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ctrl-btn {
+  margin-left: 3%;
+  margin-right:3%;
+  width: 15%;
+  height:50%;
+  border-radius: 12%;
+  border-color: #A6A6A6;
+  background-color: rgba(0,0,0,0);
+  color: #A6A6A6;
+  font-family: 'Heiro';
+}
+
+.last-ctrl-btn {
+  margin-left: 3%;
+  margin-right:3%;
+  width: 15%;
+  height:20%;
+  border-radius: 12%;
+  border-color: #A6A6A6;
+  background-color: rgba(0,0,0,0);
+  color: #A6A6A6;
+}
+
+.profile-input {
+  width: 70%;
+  height: 30%;
+  border-radius: 10px;
+  border-color: #A6A6A6;
+  margin-left: 5%;
+  font-size: 2em;
+  padding: 1%;
+  color:#A6A6A6;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Heiro';
+
+}
+
+.profile-text {
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+  border-color: #A6A6A6;
+  margin-left: 5%;
+  font-size: 2em;
+  padding: 1%;
+  color:#A6A6A6;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Heiro';
+}
+
+.profile-input-box {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-label {
+  width: 10%;
+  text-align: start;
+  font-size: 2em;
+}
+
+.stats {
+  font-size: 2em;
+}
+
+
+.profile-stat-box {
+  height: 16.6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stat-btn {
+  width:20%;
+  height: 40%;
+  border-radius: 10px;
+  border-radius: 10px;
+  border-color: #A6A6A6;
+  color:#A6A6A6;
+  background-color: rgba(0,0,0,0);
+
+}
+.stat-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-info-btn-box {
+  width: 100%;
+  height:10%;
+  display: flex;
+}
+
+.job-info-btn {
+  width: 20%;
+  height: 60%;
+}
+
+.job-info-hp-box {
+  width: 100%;
+  height:9%;
+  font-size: 2em;
+}
+
+.job-info-skill-box {
+  width: 90%;
+  height:54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.job-info-value-box {
+  width: 90%;
+  height:27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.job-info-skill {
+  font-size: 2em;
+}
+
+.job-info-value {
+  font-size: 2em;
+}
+
+#playerValue {
+  height: 35%;
+}
+
+#warrior-img, #wizard-img, #hunter-img, #thief-img, #priest-img {
+  width: 40px;
+  height: 40px;
+}

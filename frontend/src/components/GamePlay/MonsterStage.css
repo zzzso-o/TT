@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'light';
+    src: url('../../assets/fonts/HeirofLightRegular.ttf');
+  }
+  
+#monster-stage-box {
+    height: 100%;
+    padding: 7%;
+    color: white;
+    font-family: 'light';
+}
+
+#monster-stage-inner-box {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#monster-stage-info-box {
+    height: 40%;
+}
+
+#monster-stage-pic-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+#monster-stage-inner-info-box {
+    height: 20%;
+}
+.stage-pic {
+    width: 60%;
+}
+
+#human-face {
+    height: 95%;
+}

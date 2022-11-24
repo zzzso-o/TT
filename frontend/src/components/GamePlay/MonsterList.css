@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'light';
+  src: url('../../assets/fonts/HeirofLightRegular.ttf');
+}
+
+
+#monster {
+  padding: 7%;
+  color: white;
+  font-family: 'light';
+}
+
+#monster > h1 {
+  margin-bottom: 5%;
+  margin-top: 0;
+}
+
+
+
+.monster-name {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.monster-features {
+  margin:3% 0;
+}
+
+.monster-attack {
+  margin-bottom: 1%;
+}
+
+.monster-hp {
+  margin-bottom: 1%;
+}
+
+.monster-defense {
+  margin-bottom: 1%;
+}
+
+.monster-instinct {
+  margin-bottom: 1%;
+}
+
+.monster-tag {
+  margin-bottom: 1%;
+}
+
+.monster-img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}

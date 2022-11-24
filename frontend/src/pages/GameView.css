@@ -1,0 +1,63 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+    .game-view {
+        display: grid;
+        /* width: 100vw;
+        height: 100vh; */
+        /* grid-template-columns: 16% 32% 52%;
+        grid-template-rows: 600px 100px; */
+        grid-template-areas:
+        "left play camera"
+        "left bottom bottom";
+        justify-content: center;
+    }
+
+}
+
+@media all and (min-width:1024px) and (max-width:1919px) {
+    .game-view {
+        display: grid;
+        /* width: 100vw;
+        height: 100vh; */
+        /* grid-template-columns: 16% 32% 52%;
+        grid-template-rows: 600px 100px; */
+        grid-template-areas:
+        "left play camera"
+        "left bottom bottom";
+        justify-content: center;
+    }
+}
+
+@media all and (min-width:1920px) and (max-width:2559px) {
+    .game-view {
+        display: grid;
+        /* width: 100vw;
+        height: 100vh; */
+        /* grid-template-columns: 16% 32% 52%;
+        grid-template-rows: 600px 100px; */
+        grid-template-areas:
+        "left play camera"
+        "left bottom bottom";
+        justify-content: center;
+    }
+
+}
+
+@media all and (min-width:2560px) {
+    .game-view {
+        display: grid;
+        /* width: 100vw;
+        height: 100vh; */
+        /* grid-template-columns: 16% 32% 52%;
+        grid-template-rows: 600px 100px; */
+        grid-template-areas:
+        "left play camera"
+        "left bottom bottom";
+        justify-content: center;
+    }
+}
+
+.game-view{
+    background-image: url("../assets/image/game_background.jpg");
+    background-size: cover;
+}
+

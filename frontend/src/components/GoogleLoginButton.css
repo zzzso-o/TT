@@ -1,0 +1,12 @@
+.login-with-google {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin: 20px;
+    border: none;
+}
+
+/* .login-with-google {
+    background-image: url(../assets/image/google_icon.png);
+    background-size: cover;
+} */

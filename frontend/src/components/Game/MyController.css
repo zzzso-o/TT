@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Leferi';
+    src: url('../../assets/fonts/LeferiPointBlack.ttf');
+  }
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    .my-controller {
+        grid-area: bottom;
+        width: 666.624px;
+        height: 51.776px;
+    }
+
+}
+
+@media all and (min-width:1024px) and (max-width:1919px) {
+    .my-controller {
+        grid-area: bottom;
+        width: 888.832px;
+        height: 99.824px;
+    }
+}
+
+@media all and (min-width:1920px) and (max-width:2559px) {
+    .my-controller {
+        grid-area: bottom;
+        width: 1666px;
+        height: 125px;
+    }
+
+}
+
+@media all and (min-width:2560px) {
+    .my-controller {
+        grid-area: bottom;
+        width: 2222.08px;
+        height: 195.92px;
+    }
+
+}
+
+.my-controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#my-controller-bgm-box {
+    margin-right: 3%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 55%;
+    background-color: rgba(0,0,0,0.55);
+    border-radius: 20px;
+
+}
+.off#my-controller-bgm-box {
+    display:none;
+}
+#my-controller-audio-control {
+    background-color: rgba(0,0,0,0);
+    border-color: #a6a6a6;
+}
+
+#my-controller-audio-play {
+    width: 15%;
+}
+
+#my-controller-audio-control-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#my-controller-exit-box {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.exit-btn {
+    font-family: 'Leferi';
+    font-size: 1.5em;
+    color: white;
+    width: 40%;
+    height: 5vh;
+    background-color: tomato;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* .exit-btn:hover {
+    border: 2px solid white;
+}
+ */
+
+.btn-11#my-controller-exit-btn {
+    border-radius: 10px;
+    background: rgba(255,27,0,0);
+      color: #d9aa52;
+    border-color: #d9aa52;
+    border: solid;
+    font-size: 1.2em;
+  }
+  .btn-11:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  /* .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+  } */
+  .btn-11:hover{
+    opacity: .7;
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+  
+  
+  @-webkit-keyframes shiny-btn1 {
+      0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+      80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+      81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+      100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+  }
+  
