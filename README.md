@@ -4,7 +4,7 @@
 ## TT - For TRPG with Online!
 <div id="readme-top"></div>
 <!--사진-->
-![image](https://user-images.githubusercontent.com/97646028/203730716-05a480ce-ea7c-4cd0-b32b-e717781b596c.png)
+<img src=https://user-images.githubusercontent.com/97646028/203730716-05a480ce-ea7c-4cd0-b32b-e717781b596c.png>
 
 [TT](https://i7a809.p.ssafy.io/)
 온라인에서도 TRPG를 즐길 수 있는 서비스입니다!
