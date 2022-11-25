@@ -155,14 +155,14 @@ Docker version 20.10.17
 JAVA openjdk version 1.8.0_342
 
 ### 배포 아키텍쳐
-
-<img src=images/화면 캡처 2022-08-19 200133.png>
+<img src=https://user-images.githubusercontent.com/97646028/203935665-c833bd1f-ba9b-4e31-bb73-b185118775a1.png>
 
 <p align="right">(<a href="#readme-top">맨 위로</a>)</p>
 
 ## 팀 멤버
 
-<img src=./images/화면 캡처 2022-08-19 200854.png>
+<img src=https://user-images.githubusercontent.com/97646028/203935673-d24a63fd-c590-479b-bf6c-37d7ebebca43.png>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
